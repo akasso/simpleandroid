@@ -1,4 +1,5 @@
-Feature: Login feature
+Feature: Start game feature
 
-  Scenario: As a valid user I can log into my app
+  Scenario: Start a new game
+    When I touch the "Start" button
     Then I see "Hello world!"
