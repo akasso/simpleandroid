@@ -1,0 +1,50 @@
+"
+text
+current_activity.methods
+current_activity.class
+methods
+check_element_exists("Hello world!")
+text
+check_element_exists("textField:'Na'")
+e
+check_element_exists("text")
+i
+i
+reinstall_apps
+start_test_server_in_background
+query("button")
+query("text")
+query("Hello world!")
+l
+;
+l
+query("button")
+p
+start_test_server_in_background
+query("button")
+query("textfield")
+query("textview")
+query("text:'Hello world!'")
+query(text:'Hello world!')
+query("text"=>"Hello world!")
+query("text:'Hello world!'")
+query("textview 'Hello world!'")
+query("textview text:'Hello world!'")
+"textview text:'Hello world!'"
+query("textview text:'Hello world!'").class
+foobar = Element.new("textview text:'Hello world!'")
+tap "textview text:'Hello world!'"
+touch "textview text:'Hello world!'"
+set "textview text:'Hello world!'"
+touch "textview text:'Hello world!'"
+element("textview text:'Hello world!'")
+methods
+has_text?("Hello world!")
+press_menu_button
+press_menu_button
+press_menu_button
+exit
+start_test_server_in_background
+query("button")
+touch ("button text:'Start'")
+exit
