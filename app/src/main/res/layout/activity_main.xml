@@ -24,8 +24,19 @@
             android:layout_centerInParent="true"
             android:text="@string/btnStart"
             android:id="@+id/btnStart"
-            android:onClick="startGame" />
-        </RelativeLayout>
+            android:onClick="startGame"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnMainAudio"
+            android:textAllCaps="false"
+            android:id="@+id/btnMainAudio"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
 
 
 </LinearLayout>
