@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.content.res.AssetManager;
+import android.widget.Button;
 
 import java.io.IOException;
 
@@ -67,25 +68,20 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
-    public void audioSwitch(Context context)
+    public void audioSwitch(View view)
     {
-        if(audioManager.isMusicActive() == true){
-            audioOff(context);
+        Context context = this;
+        audioManager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+
+        Button audioBtn = (Button) findViewById(R.id.btnMainAudio);
+
+        if(audioManager.getStreamVolume(audioManager.STREAM_MUSIC) > 0){
+            audioManager.setStreamMute(AudioManager.STREAM_MUSIC, true);
+            audioBtn.setText("Sound Off");
         }else{
-            audioOn(context);
+            audioManager.setStreamMute(AudioManager.STREAM_MUSIC, false);
+            audioBtn.setText("Sound On");
         }
-
     }
-
-    public void audioOn(Context context){
-        audioManager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setStreamMute(AudioManager.STREAM_MUSIC, false);
-    }
-
-    public void audioOff(Context context){
-        audioManager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setStreamMute(AudioManager.STREAM_MUSIC, true);
-    }
-
 
 }
