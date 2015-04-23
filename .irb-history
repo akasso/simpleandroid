@@ -1,0 +1,50 @@
+query("textview text:'Hello world!'")
+"textview text:'Hello world!'"
+query("textview text:'Hello world!'").class
+foobar = Element.new("textview text:'Hello world!'")
+tap "textview text:'Hello world!'"
+touch "textview text:'Hello world!'"
+set "textview text:'Hello world!'"
+touch "textview text:'Hello world!'"
+element("textview text:'Hello world!'")
+methods
+has_text?("Hello world!")
+press_menu_button
+press_menu_button
+press_menu_button
+exit
+start_test_server_in_background
+query("button")
+touch ("button text:'Start'")
+exit
+start_test_server_in_background
+query("button text:'Start'")
+query("button text:'bob'")
+query("button text:'bob'").size
+query("button text:'Start'").size
+query("button text:'Start'").size >0
+query("button text:'bob'").size > 0
+exit
+start_test_server_in_background
+query("Simple Android Application")
+query("text")
+query("title")
+query("*")
+query("Simple Android Application")
+query("text: 'Simple Android Application'")
+query("textview text: 'Simple Android Application'")
+query("textview text:'Simple Android Application'")
+query("text:'Simple Android Application'")
+query("textview text:'Simple Android Application'")
+query("textview text:'Simple Android Application' visible")
+query("textview text:'Simple Android Application' visible?")
+query("textview text:'Simple Android Application'")[:visible]
+query("textview text:'Simple Android Application'")[0]
+query("textview text:'Simple Android Application'")[0][:visible]
+query("textview text:'Simple Android Application'")[0].visible
+query("textview text:'Simple Android Application'")[0]["visible"]
+query("textview text:'Simple Android Application'")[0]["height"]
+query("textview text:'Simple Android Application'")[0]["enabled"]
+query("textview text:'Simple Android Application'")[0]["class"]
+query("textview text:'Simple Android Application'")[0]["visible"]
+exit
