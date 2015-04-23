@@ -1,0 +1,23 @@
+Test cases
+
+1)
+| Steps                       | Expectations        | Pass/Fail | Comments | 
+----------------------------------------------------------------------------- 
+| Start the application       | Application started | Pass      |          |  
+| Is there a sound on button? | Yes                 | Pass      |          |  
+| Can you hear music?         | Yes                 | Pass      |          |  
+
+
+
+2)
+| Steps                     | Expectations                 | Pass/Fail | Comments |  
+------------------------------------------------------------------------------------
+| Start the application     | Application started          | Pass      |          |  
+| press the sound on button | Can see the sound off button | Pass      |          |  
+| Can you hear music?       | Yes                          | Pass      |          |  
+
+3)
+| Steps                                       | Expectations                       | Pass/Fail | Comments |  
+------------------------------------------------------------------------------------
+| Start the application                       | Application started                | Pass      |          |  
+| press the physical volume up or down button | Game sound is lowered or increased | Pass      |          |  

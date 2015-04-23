@@ -1,34 +1,3 @@
-"
-text
-current_activity.methods
-current_activity.class
-methods
-check_element_exists("Hello world!")
-text
-check_element_exists("textField:'Na'")
-e
-check_element_exists("text")
-i
-i
-reinstall_apps
-start_test_server_in_background
-query("button")
-query("text")
-query("Hello world!")
-l
-;
-l
-query("button")
-p
-start_test_server_in_background
-query("button")
-query("textfield")
-query("textview")
-query("text:'Hello world!'")
-query(text:'Hello world!')
-query("text"=>"Hello world!")
-query("text:'Hello world!'")
-query("textview 'Hello world!'")
 query("textview text:'Hello world!'")
 "textview text:'Hello world!'"
 query("textview text:'Hello world!'").class
@@ -47,4 +16,35 @@ exit
 start_test_server_in_background
 query("button")
 touch ("button text:'Start'")
+exit
+start_test_server_in_background
+query("button text:'Start'")
+query("button text:'bob'")
+query("button text:'bob'").size
+query("button text:'Start'").size
+query("button text:'Start'").size >0
+query("button text:'bob'").size > 0
+exit
+start_test_server_in_background
+query("Simple Android Application")
+query("text")
+query("title")
+query("*")
+query("Simple Android Application")
+query("text: 'Simple Android Application'")
+query("textview text: 'Simple Android Application'")
+query("textview text:'Simple Android Application'")
+query("text:'Simple Android Application'")
+query("textview text:'Simple Android Application'")
+query("textview text:'Simple Android Application' visible")
+query("textview text:'Simple Android Application' visible?")
+query("textview text:'Simple Android Application'")[:visible]
+query("textview text:'Simple Android Application'")[0]
+query("textview text:'Simple Android Application'")[0][:visible]
+query("textview text:'Simple Android Application'")[0].visible
+query("textview text:'Simple Android Application'")[0]["visible"]
+query("textview text:'Simple Android Application'")[0]["height"]
+query("textview text:'Simple Android Application'")[0]["enabled"]
+query("textview text:'Simple Android Application'")[0]["class"]
+query("textview text:'Simple Android Application'")[0]["visible"]
 exit
