@@ -20,6 +20,7 @@ import uk.co.akasso.simpleandroidapplication.famework.impl.AndroidMusic;
 public class MainActivity extends ActionBarActivity {
 
     AudioManager audioManager;
+    AndroidMusic music;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class MainActivity extends ActionBarActivity {
         try{
             AssetManager assetManager = getAssets();
             AssetFileDescriptor discriptor = assetManager.openFd("background.mp3");
-            AndroidMusic music = new AndroidMusic(discriptor);
+            music = new AndroidMusic(discriptor);
             music.setLooping(true);
             music.setVolume(1);
             music.play();
@@ -84,4 +85,15 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        music.pause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        music.play();
+    }
 }
