@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\AKasso\AndroidStudioProjects\SimpleAndroidApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\AKasso\AndroidStudioProjects\SimpleAndroidApplication\app\build\intermediates\pre-dexed\debug\classes-a5ddb5ac65c5207ab443c50d82b57ca3663b2557.jar" />
-    </item>
-    <item
-        jar="C:\Users\AKasso\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\AKasso\AndroidStudioProjects\SimpleAndroidApplication\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-578b1c6290b8e6b7b8597c67c6d3e003dd101fb1.jar" />
-    </item>
-    <item
-        jar="C:\Users\AKasso\AndroidStudioProjects\SimpleAndroidApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\AKasso\AndroidStudioProjects\SimpleAndroidApplication\app\build\intermediates\pre-dexed\debug\classes-1068e96935b6fbe8b4c45447d0668d04f5d3d4cd.jar" />
-    </item>
-    <item
-        jar="C:\Users\AKasso\AndroidStudioProjects\SimpleAndroidApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jar="E:\Github-repos\simpleandroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\AKasso\AndroidStudioProjects\SimpleAndroidApplication\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-5b5fe4b63a9ea01f61a28a10f840810db5db49ee.jar" />
+        <dex dex="E:\Github-repos\simpleandroid\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-ef32fd6f2bcb1003c3e9cd6619e6aff09650012d.jar" />
+    </item>
+    <item
+        jar="E:\Github-repos\simpleandroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="E:\Github-repos\simpleandroid\app\build\intermediates\pre-dexed\debug\classes-678353f10e7a9c3b990b7e50f924539bde875591.jar" />
+    </item>
+    <item
+        jar="E:\Github-repos\simpleandroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\Github-repos\simpleandroid\app\build\intermediates\pre-dexed\debug\classes-f450e17104e75a57f8a53ca43171961b606a22d6.jar" />
+    </item>
+    <item
+        jar="E:\Software\Android SDK\SDK\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\Github-repos\simpleandroid\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-72142c4a98f6e1a2fd302f291a96633f4059e3c7.jar" />
     </item>
 
 </items>
